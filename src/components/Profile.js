@@ -14,9 +14,9 @@ const Profile = () => {
              <p ><i class="bi bi-circle-fill text-green-500 text-[10px] px-1" ></i> Available for new projects</p>
            </div>
            <div className='mt-10 flex gap-5'>
-             <i class="bi bi-linkedin"></i>
-             <i class="bi bi-github"></i>
-             <i class="bi bi-envelope-at-fill"></i>
+             <a href="https://www.linkedin.com/in/sarath-kumar-k-18493123a" target="_blank" rel="noopener noreferrer" className='curser-pointer'><i class="bi bi-linkedin"></i></a>
+             <a href="https://github.com/Sarath-Kumar-K" target="_blank" rel="noopener noreferrer" className='curser-pointer'><i class="bi bi-github"></i></a>
+             <a href="mailto:sarathkumar230302@gmail.com" className='curser-pointer' target="_blank" rel="noopener noreferrer"><i class="bi bi-envelope-at-fill"></i></a>
            </div>
         </div>
         <div className='lg:p-5 '>

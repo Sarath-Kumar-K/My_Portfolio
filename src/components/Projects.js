@@ -3,7 +3,7 @@ import crowdfundingapp from '../assets/cfa.png'
 
 const Projects = () => {
   return (
-    <div className='p-5 md:p-10 lg:p-20'>
+    <div className='p-5 md:p-10 lg:p-20' id="works">
         <div className='pb-8'>
             <p className='text-white w-fit mx-auto py-1 px-5 text-center bg-[#4e5a61] rounded-3xl'>Works</p>
         </div>

@@ -16,7 +16,7 @@ import nextjs from '../assets/nextjs-logo.png'
 
 const Skills = () => {
   return (
-    <div className='p-5 md:p-10 lg:p-20 md:mx-20 lg:mx-52'>
+    <div className='p-5 md:p-10 lg:p-20 md:mx-20 lg:mx-52' id="skills">
         <div className='pb-8'>
             <p className='text-white w-fit mx-auto py-1 px-5 text-center bg-[#4e5a61] rounded-3xl'>Skills</p>
         </div>

@@ -3,7 +3,7 @@ import pantech from '../assets/pantech-logo.png'
 
 const Experience = () => {
   return (
-    <div className='p-5 flex flex-col bg-[#0c1626]'>
+    <div className='p-5 flex flex-col bg-[#0c1626]' id="experience">
         <div className='pt-10'>
             <h3 className='text-white w-fit mx-auto py-1 px-5 text-center bg-[#4e5a61] rounded-3xl'>Experience</h3>
         </div>
