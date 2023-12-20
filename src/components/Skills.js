@@ -20,7 +20,7 @@ const Skills = () => {
         <div className='pb-8'>
             <p className='text-white w-fit mx-auto py-1 px-5 text-center bg-[#4e5a61] rounded-3xl'>Skills</p>
         </div>
-        <p className='pb-16 text-gray-600 text-center'>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+        <p className='pb-16 text-gray-600 text-center'>Embarking on a dynamic learning journey has allowed me to master a spectrum of skills, each contributing to my proficiency in varied areas.</p>
         <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10 text-white'>
             {/* row 1 */}
             

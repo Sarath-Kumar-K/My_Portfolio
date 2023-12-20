@@ -21,16 +21,7 @@ const About = () => {
           </h2>
           <div className="text-gray-500 leading-6">
             <p className="mt-5">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English.It is a long
-              established fact that a reader will be distracted by the readable
-              content of a page when looking at its layout. The point of using
-              Lorem Ipsum is that it has a more-or-less normal distribution of
-              letters, as opposed to using 'Content here, content here', making
-              it look like readable English.
+            Greetings! I'm Sarath Kumar, a final year Computer Science student at Adhiyamaan College of Engineering in Hosur. I was born and raised in the vibrant city of Bangalore, India, I've immersed myself in the world of programming and software development. From my childhood fascination with smartphones to my current exploration of the intricate dance between hardware and software as a inquisitive explorer, technology has been my lifelong love. Each component, each line of code, unravels endless possibilities that continue to captivate my imagination.
             </p>
             <br></br>
             <div className="lg:flex lg:gap-10 flex lg:flex-row flex-col gap-5">
@@ -65,9 +56,8 @@ const About = () => {
                       Higher Secondary
                     </p>
                     <p className="py-2 px-5">
-                      Affiliated to Anna University, I was able to explore
-                      various opportunities particularly outside syllabus, that
-                      was the mark of my beginning into IT field.
+                      
+I received coaching for IIT-JEE and 12th CBSE board at this institution. Although I didn't make it to IITs or NITs, this phase of education provided me with valuable knowledge, experience in various subjects.
                     </p>
                   </div>
                 </div>
@@ -87,9 +77,7 @@ const About = () => {
                         Web App Development
                       </p>
                       <p className="px-5 py-1">
-                        It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout.
+                      Proficient web app developer skilled in MERN and LAMP stacks, showcased in diverse project implementations.
                       </p>
                     </div>
                   </div>
@@ -102,9 +90,7 @@ const About = () => {
                         Database Administration
                       </p>
                       <p className="px-5 py-1">
-                        It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout.
+                      Capable database administrator with expertise in SQL, MySQL, MongoDB, demonstrated through diverse project experiences.
                       </p>
                     </div>
                   </div>
@@ -117,9 +103,7 @@ const About = () => {
                         Computer Networking
                       </p>
                       <p className="px-5 py-1">
-                        It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout.
+                      Adept in computer networking, equipped with Coursera courses on diverse protocols and network layers in OSI model.
                       </p>
                     </div>
                   </div>
