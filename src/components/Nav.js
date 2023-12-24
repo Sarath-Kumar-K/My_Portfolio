@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import resume from '../assets/resume.pdf'
+import resume from '../assets/Resume.pdf'
 
 const Nav = () => {
     const [togglerOpen,setToggler] = useState(false)
