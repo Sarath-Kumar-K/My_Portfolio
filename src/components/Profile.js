@@ -3,9 +3,9 @@ import photo from '../assets/dp.jpg'
 
 const Profile = () => {
   return (
-    <div className='text-white mx-5 md:mx-10 lg:mx-20 flex flex-col-reverse lg:flex-row lg:gap-10 mt-20'>
+    <div className='text-white mx-5 md:mx-10 lg:mx-20 flex flex-col-reverse lg:flex-row lg:gap-10 lg:mt-16 mt-[68px]'>
       {/* welcome content */}
-        <div className='py-10'>
+        <div className='lg:pb-10 lg:pt-20 py-10'>
            <div>
               <h1 className='lg:text-5xl text-3xl font-bold'>Hi, I'm <span className='text-blue-500'>Sarath</span>👋</h1>
               <p className='mt-5 lg:text-xl text-gray-500 '>A dedicated Computer Science enthusiast with a passion for programming and devlopment. </p>
@@ -21,7 +21,7 @@ const Profile = () => {
            </div>
         </div>
         {/* photo */}
-        <div className='lg:my-auto lg:mr-[100px] mx-auto'>
+        <div className='lg:my-auto lg:mr-[100px] mx-auto pt-10'>
           {/* <div className='bg-[#4e5a61] w-fit'> 
             <img className='w-[700px] translate-x-4 -translate-y-4' src={photo}/>
           </div> */}

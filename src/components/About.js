@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../assets/passport_size_photo.png";
+
 
 const About = () => {
   return (
@@ -29,7 +29,7 @@ const About = () => {
               <div className="lg:w-3/5">
                 <p className="text-2xl py-4 text-white font-bold">Education</p>
                 <div className="border-solid border-l-2 border-b-2 border-gray-500 ml-4 mt-4">
-                  <div className="flex">
+                  <div className="flex z-1">
                   <p className="min-w-fit h-fit text-white rounded-3xl border-solid border-2 border-sky-500 px-2 py-1 inline-block -translate-x-4 bg-[#1d262e]">
                     2020-2024
                   </p>

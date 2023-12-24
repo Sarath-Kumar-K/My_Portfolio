@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="bg-[#000015]">
+    <div className="bg-[#000015] relative">
     <Nav/>
     <Profile />
     <About/>
