@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {Link} from 'react-scroll'
-import resume from '../assets/Resume.pdf'
+import resume from '../assets/resume.pdf'
 
 const Nav = () => {
     const [togglerOpen,setToggler] = useState(false)
