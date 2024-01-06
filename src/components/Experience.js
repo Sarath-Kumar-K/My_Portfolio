@@ -7,7 +7,7 @@ const Experience = () => {
         <div className='pt-10'>
             <h3 className='text-white w-fit mx-auto py-1 px-5 text-center bg-[#4e5a61] rounded-3xl'>Experience</h3>
         </div>
-        <p className='py-6 text-gray-600 text-center'>Navigated through enriching internships, gaining hands-on experience across diverse projects, contributing significantly to my multifaceted skill set. </p>
+        <p className='py-6 pb-8 text-gray-600 text-center lg:w-1/2 mx-auto'>Navigated through enriching internships, gaining hands-on experience across diverse projects, contributing significantly to my multifaceted skill set. </p>
         {/* exp 1 */}
         
         <div className='flex flex-col gap-4 bg-[#000015] rounded-md w-fit mx-auto lg:max-w-md'>
@@ -22,7 +22,7 @@ const Experience = () => {
             </div>
             {/* Position and activities performed */}
             <div className='pl-4'>
-                <h3 className='text-xl text-white font-bold'>Project Intern</h3>
+                <h3 className='text-xl text-white font-bold'>Artifical Intelligence Intern</h3>
                 <ul className='list-disc text-gray-400 py-4 px-5 leading-8'>
                     <li>Internship at Pantech Solutions: Developed an ALPR system.</li>
                     <li>Gained experience in OpenCV, NumPy, Pandas, TensorFlow, and API integration.</li>

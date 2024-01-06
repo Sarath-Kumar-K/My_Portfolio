@@ -20,7 +20,7 @@ const Skills = () => {
         <div className='pb-8'>
             <p className='text-white w-fit mx-auto py-1 px-5 text-center bg-[#4e5a61] rounded-3xl'>Skills</p>
         </div>
-        <p className='pb-16 text-gray-600 text-center'>Embarking on a dynamic learning journey has allowed me to master a spectrum of skills, each contributing to my proficiency in varied areas.</p>
+        <p className='pb-16 text-gray-600 text-center lg:w-3/5 mx-auto'>Embarking on a dynamic learning journey has allowed me to master a spectrum of skills, each contributing to my proficiency in varied areas.</p>
         <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-10 text-white'>
             {/* row 1 */}
             
