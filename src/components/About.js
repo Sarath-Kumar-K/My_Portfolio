@@ -21,7 +21,7 @@ const About = () => {
           </h2>
           <div className="text-gray-500 leading-6">
             <p className="mt-5">
-            Greetings! I'm Sarath Kumar, a final year Computer Science student at Adhiyamaan College of Engineering in Hosur. I was born and raised in the vibrant city of Bangalore, India, I've immersed myself in the world of programming and software development. From my childhood fascination with smartphones to my current exploration of the intricate dance between hardware and software as a inquisitive explorer, technology has been my lifelong love. Each component, each line of code, unravels endless possibilities that continue to captivate my imagination.
+            Greetings! I am a recent graduate with a degree in Computer Science, seeking full stack developer roles. I aim to apply my technical and analytical skills to drive organizational growth while continuing to expand my knowledge in programming and software development.
             </p>
             <br></br>
             <div className="lg:flex lg:gap-10 flex lg:flex-row flex-col gap-5">
