@@ -2,6 +2,7 @@ import React from "react";
 import crowdfundingapp from "../assets/cfa.png";
 import HotstarClone from "../assets/hotstarClone.png";
 import BlogApp from "../assets/blogApp.png";
+import NoteKeeper from "../assets/keep-notes.png";
 
 const Projects = () => {
   return (
@@ -19,6 +20,43 @@ const Projects = () => {
       </p>
       {/* projects */}
       <div className="flex flex-col">
+        {/* Note Keeper App */}
+        <div className="lg:w-5/6 p-5 mx-auto lg:flex">
+          <div
+            onClick={() => window.open("https://sarath-notes.onrender.com/")}
+            className="lg:w-1/2 p-5 lg:p-10 rounded-t-lg lg:rounded-e-none lg:rounded-s-lg bg-[#3e4a61] cursor-pointer"
+          >
+            <img className="h-[200px] lg:h-[300px] rounded-lg" src={NoteKeeper} />
+          </div>
+          <div className="lg:w-1/2 bg-[#1c2636] rounded-b-lg lg:rounded-s-none lg:rounded-e-lg p-10 text-white">
+            <p className="font-bold text-lg pb-3">
+              <a href="https://sarath-notes.onrender.com/" target="_blank">
+                Note Keeper App
+              </a>
+            </p>
+            <p className="text-gray-400 pb-8">
+            Developed a dynamic note-keeping application with React, implementing features like editable modals, pinning, and pagination to enhance user experience and efficiency. 
+            Engineered responsive UI/UX design using custom CSS and React hooks, ensuring seamless functionality and accessibility across various devices and screen sizes.
+            </p>
+            <div className="flex flex-wrap text-sm gap-2">
+              <p className="text-white w-fit py-1 px-5 text-center bg-[#4e5a61] rounded-3xl">
+                Javascript
+              </p>
+              <p className="text-white w-fit py-1 px-5 text-center bg-[#4e5a61] rounded-3xl">
+                React JS
+              </p>
+              <p className="text-white w-fit py-1 px-5 text-center bg-[#4e5a61] rounded-3xl">
+                Express JS
+              </p>
+              <p className="text-white w-fit py-1 px-5 text-center bg-[#4e5a61] rounded-3xl">
+                MongoDB
+              </p>
+              <p className="text-white w-fit py-1 px-5 text-center bg-[#4e5a61] rounded-3xl">
+                CSS
+              </p>
+            </div>
+          </div>
+        </div>
         {/* Blog App */}
         <div className="lg:w-5/6 p-5 mx-auto lg:flex">
           <div
@@ -62,7 +100,8 @@ const Projects = () => {
         </div>
         {/* Hotstar Clone */}
         <div className="lg:w-5/6 p-5 mx-auto lg:flex">
-          <div className="lg:w-1/2 p-5 lg:p-10 rounded-t-lg lg:rounded-e-none lg:rounded-s-lg bg-[#3e4a61]">
+          <div className="lg:w-1/2 p-5 lg:p-10 rounded-t-lg lg:rounded-e-none lg:rounded-s-lg bg-[#3e4a61] cursor-pointer" 
+          onClick={() => window.open("https://hotstar-clone-by-sarath-kumar.vercel.app/")}>
             <img
               className="h-[200px] lg:h-[300px] rounded-lg"
               src={HotstarClone}
